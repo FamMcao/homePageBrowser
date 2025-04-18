@@ -56,7 +56,7 @@ function initQuickLinks() {
         
         linkEl.innerHTML = `
             <img src="${iconUrl}" alt="${link.name}" 
-                 onerror="this.src='./homePageBrowser/icons/quickError.png'">
+                 onerror="this.src='/homePageBrowser/icons/quickError.png'">
             <span>${link.name}</span>
         `;
         
